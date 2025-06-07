@@ -1,0 +1,9 @@
+For this project, I utilized ChatGPT to create the inital index.html form and BMI range table. I 
+created the Calculate BMI function and I prompted Copilot to if/else statements that determine the
+BMI category based on the result. After my base applicaiton was finished, I edited the HTML text
+to more accurately fit the assignment. For example, the 'Export BMI Results' button was named 'Generate CSV' 
+by the AI. Something I found interesting was how different the "exportCSV" generated from ChatGPT vs Copilot
+were. In this project, the CSV headers were harcoded in the 'const rows,' and the reults were pulled from the 
+calcauteBMI function variables (generated from ChatGPT). However in my financial calulator project, the csv headers and rows were pulled 
+from the html and formatted into a CSV (generated form Copilot). In my opinion, the solution in this project for the exportCSV funciton is better, and I'll
+be using similar logic going forward if I need to export a CSV.

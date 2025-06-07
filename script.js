@@ -68,8 +68,8 @@ function exportCSV() {
   }
 
   const rows = [
-    ["Weight (lbs)", "Height (in)", "BMI", "Category", "Comment"],
-    [lastResult.weight, lastResult.height, lastResult.bmi, lastResult.category, lastResult.info]
+    ["Weight (lbs)", "Height (in)", "BMI", "Category"],
+    [lastResult.weight, lastResult.height, lastResult.bmi, lastResult.category]
   ];
 
   const csvContent = rows.map(e => e.map(cell => `"${cell}"`).join(",")).join("\n");
